@@ -2,7 +2,7 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Haritha Mohan <harithamohan10@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/bchiang7/v4"
@@ -10,9 +10,12 @@
   "keywords": [
     "gatsby"
   ],
+  "homepage": "http://harithamohan1.github.io/portfolio",
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -32,7 +35,7 @@
   },
   "dependencies": {
     "animejs": "^3.1.0",
-    "babel-plugin-styled-components": "^1.12.0",
+    "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.4.1",
     "gatsby-plugin-google-analytics": "^3.4.0",
     "gatsby-plugin-image": "^1.4.0",
@@ -50,8 +53,9 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
-    "lodash": "^4.17.19",
-    "prismjs": "^1.17.1",
+    "gh-pages": "^3.2.3",
+    "lodash": "^4.17.21",
+    "prismjs": "^1.24.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

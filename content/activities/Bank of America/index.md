@@ -2,7 +2,7 @@
 date: '2020-04-21'
 title: 'Ignite with Tech Conference Attendee'
 company: 'Bank of America'
-location: 'Remote'
+location: 'Charlotte, NC'
 range: 'April 2020'
 url: 'https://www.bankofamerica.com/'
 ---

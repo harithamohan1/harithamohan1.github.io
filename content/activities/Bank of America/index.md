@@ -4,7 +4,7 @@ title: 'Ignite with Tech Conference Attendee'
 company: 'Bank of America'
 location: 'Remote'
 range: 'April 2020'
-url: ''
+url: 'https://www.bankofamerica.com/'
 ---
 
 - Selected from thousands of students nationally to attend a 2-day program

@@ -3,7 +3,7 @@ date: '2020-06-21'
 title: 'Tech Instructor'
 company: 'iD Tech'
 location: 'Remote'
-range: 'May - August 2020'
+range: 'May 2020 - August 2020'
 url: 'https://www.idtech.com/home-summer'
 ---
 

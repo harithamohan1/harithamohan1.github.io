@@ -14,8 +14,7 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",

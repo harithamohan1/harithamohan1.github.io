@@ -3,7 +3,7 @@ date: '2020-02-01'
 title: 'Team Member'
 company: 'Product Management Club'
 location: 'University of North Carolina at Chapel Hill'
-range: 'January - May 2020'
+range: 'January 2020 - May 2020'
 url: 'https://www.unc.edu/'
 ---
 

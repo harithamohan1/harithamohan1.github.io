@@ -60,7 +60,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Haritha Mohan.</h2>;
-  const three = <h3 className="big-heading">I code.</h3>;
+  const three = <h3 className="big-heading">I build with code.</h3>;
   const four = (
     <p>
       I am a Software Engineer, passionate about using technology as a catalyst for change in

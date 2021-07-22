@@ -10,12 +10,10 @@
   "keywords": [
     "gatsby"
   ],
-  "homepage": "http://harithamohan1.github.io/portfolio",
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
